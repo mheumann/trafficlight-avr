@@ -6,31 +6,32 @@
 extern crate avr_std_stub;
 extern crate avrd;
 use avrd::atmega8::*;
+use core::ptr::*;
 
 #[no_mangle]
 pub extern fn main() {
     unsafe {
-        core::ptr::write_volatile(DDRB, 0xFF);
+        write_volatile(DDRB, 0xFF);
 
         loop {
-            core::ptr::write_volatile(PORTB, 0b00000100);
-            small_delay();
+            write_volatile(PORTB, 0b00000100);
+            small_delay(600_000);
 
-            core::ptr::write_volatile(PORTB, 0b00000110);
-            small_delay();
+            write_volatile(PORTB, 0b00000110);
+            small_delay(200_000);
 
-            core::ptr::write_volatile(PORTB, 0b00000001);
-            small_delay();
+            write_volatile(PORTB, 0b00000001);
+            small_delay(600_000);
 
-            core::ptr::write_volatile(PORTB, 0b00000010);
-            small_delay();
+            write_volatile(PORTB, 0b00000010);
+            small_delay(400_000);
         }
     }
 }
 
 /// A small busy loop.
-fn small_delay() {
-    for _ in 0..400000 {
+fn small_delay(time: u32) {
+    for _ in 0..time {
         unsafe { llvm_asm!("" :::: "volatile")}
     }
 }
