@@ -1,4 +1,4 @@
-# blink
+# traffic light
 
 A small Hello World Rust application for the AVR.
 

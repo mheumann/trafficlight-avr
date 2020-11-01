@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CargoProjects">
-    <cargoProject FILE="$PROJECT_DIR$/../trafficlight-avr/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc53463-3854-4954-89ff-149489ab5093" name="Default Changelist" comment="">
@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../trafficlight-avr" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="faagx5w2" />
@@ -58,10 +58,10 @@
     </configuration>
     <configuration name="Flash" type="ShConfigurationType">
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/../trafficlight-avr/flash.sh" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/flash.sh" />
       <option name="SCRIPT_OPTIONS" value="" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../trafficlight-avr" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,7 +87,7 @@
       <workItem from="1602409379234" duration="12325000" />
       <workItem from="1602922518482" duration="1462000" />
       <workItem from="1604254469068" duration="31000" />
-      <workItem from="1604254512707" duration="1674000" />
+      <workItem from="1604254512707" duration="2049000" />
     </task>
     <servers />
   </component>
@@ -107,26 +107,30 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="643" y="291" width="626" height="519" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1604254490844" />
+    <state x="544" y="111" width="824" height="878" key="CommitChangelistDialog2" timestamp="1604256558692">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="544" y="111" width="824" height="878" key="CommitChangelistDialog2/0.25.1920.1055@0.25.1920.1055" timestamp="1604256558692" />
     <state x="743" y="348" width="426" height="479" key="FileChooserDialogImpl" timestamp="1602433444573">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="743" y="348" width="426" height="479" key="FileChooserDialogImpl/0.25.1920.1055@0.25.1920.1055" timestamp="1602433444573" />
-    <state width="1874" height="281" key="GridCell.Tab.0.bottom" timestamp="1604255978582">
+    <state width="1874" height="281" key="GridCell.Tab.0.bottom" timestamp="1604256561311">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1874" height="281" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1604255978582" />
-    <state width="1874" height="281" key="GridCell.Tab.0.center" timestamp="1604255978581">
+    <state width="1874" height="281" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1604256561311" />
+    <state width="1874" height="281" key="GridCell.Tab.0.center" timestamp="1604256561311">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1874" height="281" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1604255978581" />
-    <state width="1874" height="281" key="GridCell.Tab.0.left" timestamp="1604255978581">
+    <state width="1874" height="281" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1604256561311" />
+    <state width="1874" height="281" key="GridCell.Tab.0.left" timestamp="1604256561310">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1874" height="281" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1604255978581" />
-    <state width="1874" height="281" key="GridCell.Tab.0.right" timestamp="1604255978582">
+    <state width="1874" height="281" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1604256561310" />
+    <state width="1874" height="281" key="GridCell.Tab.0.right" timestamp="1604256561311">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1874" height="281" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1604255978582" />
+    <state width="1874" height="281" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1604256561311" />
     <state x="786" y="248" width="339" height="605" key="RollbackChangesDialog" timestamp="1602430703377">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
