@@ -1,0 +1,12 @@
+[package]
+name = "trafficlight-avr"
+version = "0.1.0"
+authors = ["Marco Heumann <info@marco-heumann.de>"]
+edition = '2018'
+
+[dependencies]
+avrd = "0.3.0"
+avr-std-stub = "1.0.2"
+
+[profile.release]
+codegen-units=1
