@@ -10,20 +10,24 @@ use core::ptr::*;
 
 #[no_mangle]
 pub extern fn main() {
+    let red: u8 = 0b00000100;
+    let yellow: u8 = 0b00000010;
+    let green: u8 = 0b00000001;
+
     unsafe {
         write_volatile(DDRB, 0xFF);
 
         loop {
-            write_volatile(PORTB, 0b00000100);
+            write_volatile(PORTB, red);
             small_delay(600_000);
 
-            write_volatile(PORTB, 0b00000110);
+            write_volatile(PORTB, red | yellow);
             small_delay(200_000);
 
-            write_volatile(PORTB, 0b00000001);
+            write_volatile(PORTB, green);
             small_delay(600_000);
 
-            write_volatile(PORTB, 0b00000010);
+            write_volatile(PORTB, yellow);
             small_delay(400_000);
         }
     }
